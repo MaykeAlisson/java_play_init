@@ -1,0 +1,27 @@
+@*
+ * This template is called from the `index` template. This template
+ * handles the rendering of the page header and body tags. It takes
+ * two arguments, a `String` for the title of the page and an `Html`
+ * object to insert into the body of the page.
+ *@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>@title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section id="top">
+        <div class="wrapper">
+            <img class="resize" src="assets/images/play_icon_reverse.svg" alt="logo" />
+            <h1>Play Init Arcom</h1>
+        </div>
+    </section>
+    @content
+</body>
+
+</html>

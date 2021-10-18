@@ -1,0 +1,15 @@
+@(statusCode:Integer, request:String, message:String)
+
+@main_error( "ERRO INTERNO" ) {
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <strong>STATUS: @statusCode</strong>
+            <br>
+            <strong>REQUEST: @request</strong>
+            <br>
+            <strong>MENSAGEM: @message</strong>
+        </div>
+    </div>
+
+}

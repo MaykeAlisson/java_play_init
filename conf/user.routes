@@ -1,0 +1,6 @@
+
+GET         /v1/usuario    controllers.ExempleController.apiGet(request: Request, nome: String)
+POST        /v1/usuario    controllers.ExempleController.apiPost(request: Request)
+PUT         /v1/usuario    controllers.ExempleController.apiPut(request: Request, id: Long)
+DELETE      /v1/usuario    controllers.ExempleController.apiDelete(request: Request, id: Long)
+
